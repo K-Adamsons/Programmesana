@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GR - {% block nosaukums %} Table {% endblock %}</title>
+    </head>
+    <body>
+        <a href="/">Sākums</a>
+        <a href="/tests">Tests</a>
+        <a href="/saraksts">Saraksts</a>
+        <a href="/info">Informacijas ievade</a>
+
+        <h1>Krišjāņa Ādamsona mājaslapa</h1>
+        {% block saturs %}
+        <p>A Table</p>
+        {% endblock %}
+        {% block pic %}
+        <img src="https://www.jysk.lv/media/catalog/product/cache/008a5cc18c8ee548a35679ce892dca1b/9/9/99f15931d2c595c306b86856f18461551f5f9531___117035_3_.jpg">
+        {% endblock %}
+
+    </body>
+
+</html>
